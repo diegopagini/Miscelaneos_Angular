@@ -1,1 +1,32 @@
-<p>usuario works!</p>
+<div class="row">
+  <div class="col-md-12 text-center">
+    <div class="btn-group" role="group" aria-label="Basic example">
+      <button
+        type="button"
+        class="btn btn-primary"
+        routerLink="nuevo"
+        routerLinkActive="active"
+      >
+        Nuevo
+      </button>
+      <button
+        type="button"
+        class="btn btn-primary"
+        routerLink="editar"
+        routerLinkActive="active"
+      >
+        Editar
+      </button>
+      <button
+        type="button"
+        class="btn btn-primary"
+        routerLink="detalle"
+        routerLinkActive="active"
+      >
+        Detalle
+      </button>
+    </div>
+  </div>
+</div>
+
+<router-outlet></router-outlet>
